@@ -3,10 +3,23 @@ import React from "react";
 import Title from "./Title";
 import { HoverEffect } from "@/app/component/ui/card-hover-effect";
 import {
+    SiAmazoncloudwatch,
+    SiCss3,
+    SiDocker,
+    SiExpress,
+    SiGit,
+    SiGooglecloud,
+    SiHtml5,
     SiJavascript,
+    SiJquery,
+    SiLinux,
+    SiMongodb,
+    SiMysql,
+    SiNextdotjs,
     SiNodedotjs,
     SiPython,
-    SiReact
+    SiReact,
+    SiTailwindcss
 } from "react-icons/si"
 export default function Skills () {
 
@@ -28,25 +41,58 @@ export default function Skills () {
             Icon: SiPython,
         },
         {
-            text: "React",
-            Icon: SiReact,
+            text: "Next",
+            Icon: SiNextdotjs,
         },
         {
-            text: "React",
-            Icon: SiReact,
+            text: "Express",
+            Icon: SiExpress,
         },
         {
-            text: "React",
-            Icon: SiReact,
+            text: "JQuery",
+            Icon: SiJquery,
         },
         {
-            text: "React",
-            Icon: SiReact,
+            text: "HTML",
+            Icon: SiHtml5,
         },
         {
-            text: "React",
-            Icon: SiReact,
+            text: "CSS",
+            Icon: SiCss3,
+        },
+        {
+            text: "Tailwind",
+            Icon: SiTailwindcss,
+        },
+        {
+            text: "Mongodb",
+            Icon: SiMongodb,
+        },
+        {
+            text: "MySQL",
+            Icon: SiMysql,
+        },
+        {
+            text: "GCP",
+            Icon: SiGooglecloud,
+        },
+        {
+            text: "GIT",
+            Icon: SiGit,
+        },
+        {
+            text: "Docker",
+            Icon: SiDocker,
+        },
+        {
+            text: "Linux",
+            Icon: SiLinux,
+        },
+        {
+            text: "AWS",
+            Icon: SiAmazoncloudwatch,
         }
+        
     ]
 
     return <div className=" max-w-5xl mx-auto px-8">

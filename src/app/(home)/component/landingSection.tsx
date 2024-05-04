@@ -15,7 +15,7 @@ export default function LandingSection ()  {
                     </span>
                 </h1>
                 <p className="md:w-96 text-lg text-gray-300">
-                    我是一個Web全端開發者
+                    我是熱愛Web開發的Janus
                 </p>
                 
                 <Link href="mailto:ktr84759@gmail.com" className="inline-block group">
@@ -32,13 +32,7 @@ export default function LandingSection ()  {
                         <div className="w-32 h-32 rounded-2xl bg-green-500"></div>
                         <div className="w-32 h-32 rounded-full bg-indigo-500"></div>
                     </div>
-                    <div className="glow absolute top-[40%] right-1/2 -z-10 ">                        
-                    </div>
-                    <div className="absolute bottem-5 sm:bottem-14 left-0 sm:-left-10">
-                        <MovingBorderBtn borderRadius="0.5rem" className="p-3 font-semibold ">
-                        <p>作品集</p>
-                        </MovingBorderBtn>    
-                </div>
+                    <div className="glow absolute top-[40%] right-1/2 -z-10 "></div>
                 </div>                                
             </div>
         </div>

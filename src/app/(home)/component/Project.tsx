@@ -16,9 +16,9 @@ export default function Projects(){
         },
         {
             title:"電商平台",
-            tech:[SiVuedotjs,SiNuxtdotjs,SiTailwindcss,SiTypescript],
+            tech:[SiVuedotjs,SiNuxtdotjs,SiTailwindcss],
             link:"https://ecommerce.zeabur.app/",
-            cover:"/web-dashboard.png",
+            cover:"/電商網站.jpg",
             backgroud:"bg-blue-500",
         },
         {

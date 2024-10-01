@@ -3,7 +3,7 @@ import Title from "./Title";
 import Link from "next/link";
 import { cn } from "@/app/lib/utils";
 import { DirectionAwareHover } from "@/app/component/ui/direction-aware-hover";
-import { SiMongoose, SiNextdotjs, SiReact } from "react-icons/si";
+import { SiMongoose, SiNextdotjs, SiReact,SiNuxtdotjs,SiVuedotjs,SiTailwindcss,SiTypescript,SiVite} from "react-icons/si";
 
 export default function Projects(){
     const projects = [
@@ -16,8 +16,8 @@ export default function Projects(){
         },
         {
             title:"電商平台",
-            tech:[SiReact,SiMongoose,SiNextdotjs],
-            link:"www.google.com",
+            tech:[SiVuedotjs,SiNuxtdotjs,SiTailwindcss,SiTypescript],
+            link:"https://ecommerce.zeabur.app/",
             cover:"/web-dashboard.png",
             backgroud:"bg-blue-500",
         },

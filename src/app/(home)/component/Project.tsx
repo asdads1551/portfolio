@@ -8,15 +8,15 @@ import { SiMongoose, SiNextdotjs, SiReact,SiNuxtdotjs,SiVuedotjs,SiTailwindcss,S
 export default function Projects(){
     const projects = [
         {
-            title:"後台專案",
-            tech:[SiReact,SiMongoose,SiNextdotjs],
-            link:"www.google.com",
-            cover:"/web-dashboard.png",
+            title:"電商後台管理系統",
+            tech:[SiVuedotjs,SiNuxtdotjs,SiTailwindcss,SiVite],
+            link:"https://ecommercedb.zeabur.app/overview",
+            cover:"/電商儀表板.jpg",
             backgroud:"bg-green-500",
         },
         {
             title:"電商平台",
-            tech:[SiVuedotjs,SiNuxtdotjs,SiTailwindcss],
+            tech:[SiVuedotjs,SiNuxtdotjs,SiTailwindcss,SiVite],
             link:"https://ecommerce.zeabur.app/",
             cover:"/電商網站.jpg",
             backgroud:"bg-blue-500",

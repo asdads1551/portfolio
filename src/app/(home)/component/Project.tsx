@@ -42,7 +42,7 @@ export default function Projects(){
             <div className="grid grid-cols-1 sm:grid-cols-2 pt-20 gap-5">
                 {projects.map((project, index)=>{
                     return (
-                        <Link href={project.link} key={index}>
+                        <Link href={project.link} key={index} target="_blank" rel="noopener noreferrer">
                             <div className={cn("p-5 rounded-md", project.backgroud)}>
                                 <DirectionAwareHover imageUrl={project.cover} className="w-full space-y-5 cursor-pointer">
                                     <div className="space-y-5">

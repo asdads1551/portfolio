@@ -3,7 +3,7 @@ import Title from "./Title";
 import Link from "next/link";
 import { cn } from "@/app/lib/utils";
 import { DirectionAwareHover } from "@/app/component/ui/direction-aware-hover";
-import { SiMongoose, SiNextdotjs, SiReact,SiNuxtdotjs,SiVuedotjs,SiTailwindcss,SiTypescript,SiVite} from "react-icons/si";
+import { SiMongoose, SiNextdotjs, SiReact,SiNuxtdotjs,SiVuedotjs,SiTailwindcss,SiTypescript,SiVite,SiBootstrap} from "react-icons/si";
 
 export default function Projects(){
     const projects = [
@@ -22,10 +22,10 @@ export default function Projects(){
             backgroud:"bg-blue-500",
         },
         {
-            title:"電商平台",
-            tech:[SiReact,SiMongoose,SiNextdotjs],
-            link:"www.google.com",
-            cover:"/web-dashboard.png",
+            title:"任務管理系統",
+            tech:[SiVuedotjs,SiNuxtdotjs,SiBootstrap,SiVite],
+            link:"https://taskmg.zeabur.app/",
+            cover:"/任務管理系統.jpg",
             backgroud:"bg-blue-500",
         },
         {

@@ -28,13 +28,7 @@ export default function Projects(){
             cover:"/任務管理系統.jpg",
             backgroud:"bg-blue-500",
         },
-        {
-            title:"電商平台",
-            tech:[SiReact,SiMongoose,SiNextdotjs],
-            link:"www.google.com",
-            cover:"/web-dashboard.png",
-            backgroud:"bg-blue-500",
-        },
+
     ]
     return(
         <div className="py-10 p-5 sm:p-0">
